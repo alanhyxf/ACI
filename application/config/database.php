@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
@@ -76,9 +76,9 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',#初始安装，请在这里修改
-	'username' => 'root',#初始安装，请在这里修改
-	'password' => 'root',#初始安装，请在这里修改
-	'database' => 'aci',#初始安装，请在这里修改
+	'username' => 'hyreading_du',#初始安装，请在这里修改
+	'password' => 'yxfhalan1',#初始安装，请在这里修改
+	'database' => 'hyreading_du',#初始安装，请在这里修改
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

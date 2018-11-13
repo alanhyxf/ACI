@@ -1,7 +1,7 @@
-<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+﻿<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 $config['aci_status'] = array (
   'systemVersion' => '1.2.0',
-  'installED' => false,
+  'installED' => true,
 );
 $config['aci_module'] = array (
   'welcome' => 
@@ -345,7 +345,7 @@ $config['aci_module'] = array (
     'moduleName' => 'helloWorld',
     'modulePath' => 'adminpanel',
     'moduleCaption' => 'Hello World',
-    'description' => '这里一个演示模块，来自于吸心大法第三章',
+    'description' => '这里一个演示模块',
     'fileList' => NULL,
     'works' => true,
     'moduleUrl' => 'adminpanel/helloWorld',
